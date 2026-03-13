@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Shoes Store</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+        }
+        header {
+            background: #111;
+            color: #fff;
+            padding: 30px 0;
+            text-align: center;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 700;
+        }
+        .hero {
+            background: url('https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1920,c_limit/6b7b2d7e-7c3e-4e7d-9e5a-2b6e2c1b9b7a/nike-shoes.jpg') center/cover no-repeat;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+        .product {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            width: 260px;
+            padding: 20px;
+            text-align: center;
+        }
+        .product img {
+            width: 200px;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin: 15px 0 10px;
+            font-size: 1.2rem;
+        }
+        .product p {
+            color: #555;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .product .price {
+            color: #e53935;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        .product button {
+            background: #111;
+            color: #fff;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        footer {
+            background: #111;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nike Shoes Store</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <div class="hero">
+        Step Into Style
+    </div>
+    <div class="container">
+        <h2 style="text-align:center;">Featured Shoes</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://static.nike.com/a/images/t_default/5c1e2b7d-7c3e-4e7d-9e5a-2b6e2c1b9b7a/air-max-270-mens-shoes-KkLcGR.png" alt="Nike Air Max 270">
+                <h3>Nike Air Max 270</h3>
+                <p>Breathable mesh upper and responsive cushioning for all-day comfort.</p>
+                <div class="price">$150</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://static.nike.com/a/images/t_default/6b7b2d7e-7c3e-4e7d-9e5a-2b6e2c1b9b7a/air-force-1-07-mens-shoes-KkLcGR.png" alt="Nike Air Force 1">
+                <h3>Nike Air Force 1</h3>
+                <p>Classic design with premium leather and iconic comfort.</p>
+                <div class="price">$120</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://static.nike.com/a/images/t_default/7c3e-4e7d-9e5a-2b6e2c1b9b7a/air-zoom-pegasus-40-mens-running-shoes-KkLcGR.png" alt="Nike Pegasus 40">
+                <h3>Nike Pegasus 40</h3>
+                <p>Lightweight running shoe with responsive Zoom Air cushioning.</p>
+                <div class="price">$130</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://static.nike.com/a/images/t_default/8e7d-9e5a-2b6e2c1b9b7a/dunk-low-mens-shoes-KkLcGR.png" alt="Nike Dunk Low">
+                <h3>Nike Dunk Low</h3>
+                <p>Retro-inspired style with durable construction and bold colors.</p>
+                <div class="price">$110</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Nike Shoes Store. All rights reserved.
+    </footer>
+</body>
+</html>
